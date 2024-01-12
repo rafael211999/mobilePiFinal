@@ -14,7 +14,7 @@ export default function Home() {
         <ScrollView style={styles.scrollContainer}>
             <StatusBar style="auto" />
             <TouchableOpacity style={styles.btnText} onPress={() => navigate('CadastroUser')}>
-                <Text>Ir para a tela teste</Text>
+                <Text>Cadastro Usuário</Text>
             </TouchableOpacity>
         </ScrollView>
 
